@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Vue 3 -->
+    <script src="https://unpkg.com/vue@3"></script>
+    <main>
+        <div id="app" class="main-content">
+
+            <div class="previous-button">
+                <i class="fa-solid fa-backward"></i>
+            </div>
+
+            <div class="main-item">
+                <img :src="imagesList[activeIndex]" alt="">
+            </div>
+
+            <div class="next-button">
+                <i class="fa-solid fa-forward"></i>
+            </div>
+        </div>
+    </main>
+    <script src="js/myscript.js"></script>
+</body>
+</html>
