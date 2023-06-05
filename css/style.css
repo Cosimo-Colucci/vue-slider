@@ -32,18 +32,18 @@ div.next-button{
     height: 30px;
     font-size: 1.4rem;
     background-color: white;
-    left: 50%;
-    transform: translateX(-50%);
     border-radius: 50%;
     display: flex;
 }
 
 div.previous-button{
-    top: 2.2rem;
+    left: 0;
+    bottom: 0;
 }
 
 div.next-button{
-    bottom: 2rem;
+    bottom: 0;
+    right: 0;
 }
 
 
@@ -55,8 +55,4 @@ div.next-button i{
 
 div.main-content .main-item{
     height: 100%;
-}
-
-div.main-content .main-item.active{
-    display: block;
-}
+};
