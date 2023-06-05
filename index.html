@@ -15,7 +15,7 @@
     <main>
         <div id="app" class="main-content">
 
-            <div class="previous-button">
+            <div class="previous-button" @click="previousImage()">
                 <i class="fa-solid fa-backward"></i>
             </div>
 
@@ -23,7 +23,7 @@
                 <img :src="imagesList[activeIndex]" alt="">
             </div>
 
-            <div class="next-button">
+            <div class="next-button" @click="nextImage()">
                 <i class="fa-solid fa-forward"></i>
             </div>
         </div>

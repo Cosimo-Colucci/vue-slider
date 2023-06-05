@@ -78,15 +78,14 @@ createApp({
             ],
 
             activeIndex : 0,
+        }  
+    },
+    methods: { 
+        previousImage(){
+            this.activeIndex--;
         },
-
-        methods  (
-            previousImage(){
-                this.activeIndex--;
-            },
-            nextImage(){
-                this.activeIndex++;
-            })
-        
+        nextImage(){
+            this.activeIndex++;
+        }
     }
 }).mount("#app")
