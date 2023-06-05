@@ -20,7 +20,9 @@
             </div>
 
             <div class="main-item">
-                <img :src="imagesList[activeIndex]" alt="">
+                <img :src="imagesList[activeIndex].image" alt="">
+                <h2>{{imagesList[activeIndex].title}} </h2>
+                <p>{{imagesList[activeIndex].text}}</p>
             </div>
 
             <div class="next-button" @click="nextImage()">
